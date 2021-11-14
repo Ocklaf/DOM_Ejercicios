@@ -1,0 +1,47 @@
+html{
+    scroll-behavior: smooth;
+    /* con esta propiedad, el scroll es suave al pinchar en los links de desplazamiento */
+}
+
+h1 {
+    background-color: #c9a4f0;
+    text-align: center;
+}
+
+.menu {
+    height: 100%;
+    width: 100%;
+    background: rgb(201, 164, 240);
+    opacity: .8;
+    transform: translateY(-500%);
+    transform: translateX(110%); 
+    transition-duration: 1s;
+}
+
+.menuHamburger{
+    transform: translateY(-500%);
+    
+}
+
+.menu div{
+    text-align: center;
+/*     border: 1px dotted black; */
+    height: 3rem;
+    padding: 1rem;
+}
+
+.menu div:hover{
+    background: #b84aff;
+    opacity: .8;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #ffdb4a;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+html{
+    scroll-behavior: smooth;
+}
